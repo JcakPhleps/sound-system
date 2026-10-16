@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Conductor Pro</string>
+	<key>CFBundleDisplayName</key>
+	<string>Conductor Pro</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jackphelps.conductorpro</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<!-- Regular app with a Dock icon and a window. -->
+	<key>LSUIElement</key>
+	<false/>
+	<!-- Required so the Automation (Apple Events) TCC prompt appears when we
+	     control Music / Spotify via ScriptingBridge. -->
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Sound System controls playback in Music and Spotify on your behalf.</string>
+	<!-- Declared now so the Phase 2 system-wide EQ can capture system audio via
+	     a Core Audio process tap. -->
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Sound System routes your Mac's audio through an equalizer so EQ applies to everything you play.</string>
+</dict>
+</plist>

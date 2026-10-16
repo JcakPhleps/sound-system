@@ -1,0 +1,260 @@
+{
+  "fill" : {
+    "automatic-gradient" : "display-p3:0.75294,0.75294,0.75294,1.00000"
+  },
+  "groups" : [
+    {
+      "hidden" : false,
+      "layers" : [
+        {
+          "image-name" : "Liquid Glass - Regular - Small.svg",
+          "name" : "Liquid Glass - Regular - Small",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -167.4765625,
+              -274.5
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-13.svg",
+          "name" : "Liquid Glass - Regular - Small-13",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -167.4765625,
+              -81.5
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-12.svg",
+          "name" : "Liquid Glass - Regular - Small-12",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -54.5,
+              -129.5
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-10.svg",
+          "name" : "Liquid Glass - Regular - Small-10",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              275.1171875,
+              -81.5
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-9.svg",
+          "name" : "Liquid Glass - Regular - Small-9",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              165.5,
+              -129.5
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-8.svg",
+          "name" : "Liquid Glass - Regular - Small-8",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -274.6171875,
+              -178
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-7.svg",
+          "name" : "Liquid Glass - Regular - Small-7",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              55,
+              -178
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-6.svg",
+          "name" : "Liquid Glass - Regular - Small-6",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -167.4765625,
+              -178
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-5.svg",
+          "name" : "Liquid Glass - Regular - Small-5",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -54.5,
+              -274.5
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-4.svg",
+          "name" : "Liquid Glass - Regular - Small-4",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              165.5,
+              -274.5
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-3.svg",
+          "name" : "Liquid Glass - Regular - Small-3",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              274.6171875,
+              -177.5
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Small-2.svg",
+          "name" : "Liquid Glass - Regular - Small-2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              275.1171875,
+              -275.5
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    },
+    {
+      "layers" : [
+        {
+          "image-name" : "Liquid Glass - Regular - Medium-6.svg",
+          "name" : "Liquid Glass - Regular - Medium-6",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -232.5,
+              270.3984375
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Medium-5.svg",
+          "name" : "Liquid Glass - Regular - Medium-5",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              232.5,
+              270.3984375
+            ]
+          }
+        },
+        {
+          "fill" : "automatic",
+          "image-name" : "Liquid Glass - Regular - Medium-4.svg",
+          "name" : "Liquid Glass - Regular - Medium-4",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              270.3984375
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Medium-3.svg",
+          "name" : "Liquid Glass - Regular - Medium-3",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              109
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    },
+    {
+      "layers" : [
+        {
+          "image-name" : "Liquid Glass - Regular - Medium-2.svg",
+          "name" : "Liquid Glass - Regular - Medium-2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              -170.00000000000006
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Medium-1.svg",
+          "name" : "Liquid Glass - Regular - Medium-1",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              198.3984375
+            ]
+          }
+        },
+        {
+          "image-name" : "Liquid Glass - Regular - Medium.svg",
+          "name" : "Liquid Glass - Regular - Medium",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              7.999999999999886
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

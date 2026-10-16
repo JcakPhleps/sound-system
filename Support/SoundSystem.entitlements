@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Personal, non–App-Store app. Sandbox OFF so we can post CGEvents,
+	     control other apps via Apple Events, and create Core Audio taps. -->
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+	<!-- Allows sending Apple Events to Music / Spotify. -->
+	<key>com.apple.security.automation.apple-events</key>
+	<true/>
+	<!-- Needed by the Phase 2 Core Audio process tap for system-audio capture. -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+</dict>
+</plist>

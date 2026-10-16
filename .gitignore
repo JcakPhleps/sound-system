@@ -1,0 +1,21 @@
+# Generated Xcode project (source of truth is project.yml)
+*.xcodeproj/
+DerivedData/
+build/
+.build/
+
+# macOS
+.DS_Store
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+Packages/
+Package.resolved
+
+# Secrets / signing (never commit)
+*.p12
+*.provisionprofile

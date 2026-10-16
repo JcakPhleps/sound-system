@@ -1,0 +1,63 @@
+name: SoundSystem
+options:
+  bundleIdPrefix: com.jackphelps
+  deploymentTarget:
+    macOS: "14.4"
+    iOS: "18.0"
+  createIntermediateGroups: true
+  defaultConfig: Debug
+
+settings:
+  base:
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  # macOS — Conductor Pro
+  SoundSystem:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/SoundSystem
+      - path: Sources/Shared
+      - path: Support/Resources
+        buildPhase: resources
+      - path: "Conductor Pro Icon.icon"
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jackphelps.conductorpro
+        PRODUCT_NAME: Conductor Pro
+        INFOPLIST_FILE: Support/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Support/SoundSystem.entitlements
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        ENABLE_APP_SANDBOX: NO
+        ENABLE_HARDENED_RUNTIME: YES
+        SWIFT_STRICT_CONCURRENCY: complete
+        ASSETCATALOG_COMPILER_APPICON_NAME: "Conductor Pro Icon"
+        COMBINE_HIDPI_IMAGES: YES
+        LD_RUNPATH_SEARCH_PATHS:
+          - "$(inherited)"
+          - "@executable_path/../Frameworks"
+
+  # iOS — Conductor Lite (visual companion)
+  ConductorLite:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources/iOS
+      - path: Sources/Shared
+      - path: Support/Resources
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jackphelps.conductorlite
+        PRODUCT_NAME: Conductor Lite
+        INFOPLIST_FILE: Support/InfoLite.plist
+        SWIFT_STRICT_CONCURRENCY: complete
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGNING_ALLOWED: "NO"
+        CODE_SIGNING_REQUIRED: "NO"
